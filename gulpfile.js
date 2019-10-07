@@ -141,9 +141,10 @@ gulp.task('watch', function() {
 
 	browsersync.init({
 
-		proxy: "http://law-u.local",
-		host: "law-u.local",
-		open: "external"
+		server: "dist/html"
+		// proxy: "http://law-u.local",
+		// host: "law-u.local",
+		// open: "external"
 
 	});
 
