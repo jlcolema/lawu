@@ -3,3 +3,137 @@
 ------------------------------*/
 
 // Notes...
+
+.header {
+
+	padding: 0 2.0rem;
+	// background: pink;
+
+	@media screen and (min-width: 600px) {
+
+		padding: 0 4.0rem;
+
+	}
+
+	@media screen and (min-width: 900px) {
+
+		padding: 0 6.0rem;
+
+	}
+
+}
+
+	.header__wrap {
+
+		width: 100%;
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 2.8rem 0;
+
+		@media screen and (min-width: 540px) {
+
+			position: relative;
+
+		}
+
+	}
+
+		/* Logo */
+
+		.logo {
+
+			display: inline-block;
+
+		}
+
+			.logo__link {
+
+				display: block;
+				text-decoration: none;
+
+			}
+
+				.logo__title {
+
+					display: block;
+					font-size: 2.3rem;
+					line-height: 1.304347826; /* 30 */
+					text-transform: uppercase;
+					font-weight: bold;
+
+				}
+
+				.logo__tagline {
+
+					display: block;
+					color: $color-primary-gray;
+
+				}
+
+		/* Nav */
+
+		// The navigation is not currently needed.
+
+		.nav {
+
+			display: none;
+
+		}
+
+			.nav__toggle {}
+
+				.nav__label {}
+
+			.nav__list {
+
+				display: flex;
+				flex-direction: row;
+				flex-wrap: nowrap;
+				justify-content: flex-start;
+				align-items: flex-start;
+				align-content: flex-start;
+				margin: 0;
+				padding: 0;
+				list-style: none;
+
+			}
+
+				.nav__item {}
+
+					.nav__link {}
+
+		/* Call to Action */
+		
+		.call-to-action {
+
+			margin: 16px 0 0 0;
+			text-transform: uppercase;
+
+			@media screen and (min-width: 540px) {
+
+				position: absolute;
+				right: 0;
+				top: 50%;
+				margin: -16px 0 0 0;
+				z-index: 1;
+
+			}
+
+		}
+
+			.call-to-action__link {
+
+				display: inline-block;
+				padding: 0.6rem 1.0rem;
+				color: $color-base-white;
+				background: $color-primary-blue;
+				text-decoration: none;
+				transition: background 0.35s ease-in-out;
+
+				&:hover {
+
+					background: lighten($color-primary-blue, 5%);
+
+				}
+
+			}

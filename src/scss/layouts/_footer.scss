@@ -3,3 +3,84 @@
 ------------------------------*/
 
 // Notes...
+
+.footer {
+
+	padding: 0 2.0rem;
+	background: $color-gray-10;
+
+	@media screen and (min-width: 600px) {
+
+		padding: 0 4.0rem;
+
+	}
+
+	@media screen and (min-width: 900px) {
+
+		padding: 0 6.0rem;
+
+	}
+
+}
+
+	.footer__wrap {
+
+		width: 100%;
+		max-width: 800px;
+		margin: 0 auto;
+		padding: 2.0rem 0;
+
+	}
+
+		.primary__h-card {
+
+			font-size: 1.2rem;
+
+		}
+
+			.primary__p-name {
+
+				font-weight: bold;
+				text-transform: uppercase;
+
+			}
+
+			.primary__p-description {}
+
+			.primary__p-adr {
+
+				margin: 1.0rem 0 0 0;
+
+			}
+
+				.primary__p-post-office-box {}
+
+				.primary__p-locality {}
+
+				.primary__p-region {}
+
+				.primary__p-postal-code {}
+
+			.primary__p-tel {}
+
+			.primary__u-email {}
+
+				.primary__p-label {
+
+					font-weight: bold;
+
+				}
+
+		.copyright {
+
+			margin: 1.0rem 0 0 0;
+			font-size: 1.0rem;
+			line-height: 1.7rem;
+
+		}
+
+			.copyright__link {
+
+				color: $color-primary-gray;
+
+			}

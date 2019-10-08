@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="59px" viewBox="0 0 49 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>page</title>
+    <desc>Created with Sketch.</desc>
+    <g id="page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Rectangle" fill="#FAFAFA" points="0 0 35 0 49 14 49 59 0 59"></polygon>
+        <polygon id="Path" fill="#DADADB" points="35 -7.10542736e-15 35 14 49 14"></polygon>
+        <rect id="Rectangle" fill="#DADADB" x="6" y="30" width="37" height="2"></rect>
+        <rect id="Rectangle-Copy-3" fill="#DADADB" x="6" y="20" width="20" height="2"></rect>
+        <rect id="Rectangle-Copy" fill="#DADADB" x="6" y="40" width="37" height="2"></rect>
+        <rect id="Rectangle-Copy-2" fill="#DADADB" x="6" y="50" width="37" height="2"></rect>
+    </g>
+</svg>
