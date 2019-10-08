@@ -46,7 +46,7 @@ gulp.task('sass', function() {
 
 	.pipe(sass({
 
-		outputStyle: 'compressed',
+		outputStyle: 'expanded',
 		precision: 9
 
 	}).on('error', sass.logError))
@@ -90,7 +90,7 @@ gulp.task('js', function() {
 
 	// }))
 
-	.pipe(uglify())
+	// .pipe(uglify())
 
 	.pipe(gulp.dest(basePaths.assets + 'js'))
 
