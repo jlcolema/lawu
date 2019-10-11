@@ -32,13 +32,13 @@
 
 // Image Replacement
 
-// @mixin hide-text() {
+@mixin hide-text() {
 
-	// text-indent: -9999px;
-	// white-space: nowrap;
-	// overflow: hidden;
+	text-indent: -9999px;
+	white-space: nowrap;
+	overflow: hidden;
 
-// }
+}
 
 
 // Need to Organize
