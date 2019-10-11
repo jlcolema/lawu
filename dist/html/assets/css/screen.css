@@ -546,7 +546,7 @@ iframe {
   margin: 20px 0 0 0;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .nav {
     position: absolute;
     right: 0;
@@ -591,7 +591,7 @@ iframe {
   padding: 0 10px 0 0;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 780px) {
   .nav__item:first-of-type {
     padding: 0 10px;
   }
