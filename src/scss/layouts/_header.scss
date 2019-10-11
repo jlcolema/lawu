@@ -151,6 +151,19 @@
 
 					}
 
+				/* Active Navigation Item */
+
+				.nav__item--is-active {
+
+					.nav__link {
+
+						color: $color-primary-blue;
+						text-decoration: underline;
+
+					}
+
+				}
+
 		/* Call to Action */
 		
 		.call-to-action {

@@ -611,6 +611,12 @@ iframe {
   color: #22529d;
 }
 
+/* Active Navigation Item */
+.nav__item--is-active .nav__link {
+  color: #22529d;
+  text-decoration: underline;
+}
+
 /* Call to Action */
 .call-to-action {
   margin: 24px 0 0 0;
