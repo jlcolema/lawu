@@ -107,14 +107,16 @@
 		.call-to-action {
 
 			margin: 16px 0 0 0;
+			font-size: 1.9rem;
+			line-height: 1.368421053; /* 26 */
 			text-transform: uppercase;
 
-			@media screen and (min-width: 540px) {
+			@media screen and (min-width: 620px) {
 
 				position: absolute;
 				right: 0;
 				top: 50%;
-				margin: -16px 0 0 0;
+				margin: -18px 0 0 0;
 				z-index: 1;
 
 			}

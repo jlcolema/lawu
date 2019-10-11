@@ -8649,17 +8649,17 @@ return jQuery;
 
 		// Add class of "dev" to <body>
 
-		// $("body").addClass("dev");
+		$("body").addClass("dev");
 
 		// Displays screen size on the fly.
 
-		// var windowWidth = $(window).width();
+		var windowWidth = $(window).width();
 
-		// var windowHeight = $(window).height();
+		var windowHeight = $(window).height();
 
-		// $(".footer").after('<div id="dev"></div>');
+		$(".footer").after('<div id="dev"></div>');
 
-		// $("#dev").text(windowWidth + ' ' + 'W' + ' ' + '/' + ' ' + windowHeight + ' ' + 'H');
+		$("#dev").text(windowWidth + ' ' + 'W' + ' ' + '/' + ' ' + windowHeight + ' ' + 'H');
 
 	});
 
@@ -8679,11 +8679,11 @@ return jQuery;
 
 		// Displays screen size on the fly.
 
-		// var windowWidth = $(window).width();
+		var windowWidth = $(window).width();
 
-		// var windowHeight = $(window).height();
+		var windowHeight = $(window).height();
 
-		// $("#dev").text(windowWidth + ' ' + 'W' + ' ' + '/' + ' ' + windowHeight + ' ' + 'H');
+		$("#dev").text(windowWidth + ' ' + 'W' + ' ' + '/' + ' ' + windowHeight + ' ' + 'H');
 
 	});
 
