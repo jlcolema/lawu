@@ -591,6 +591,39 @@
 
 				.bio__detail {}
 
+					.bio__links {}
+
+						.bio__links-title {
+
+							margin: 3.2rem 0 1.2rem 0;
+							font-size: 1.9rem;
+							line-height: 1.368421053; /* 26 */
+
+						}
+
+						.bio__list {
+
+							// margin: 0;
+							padding: 0 0 0 2.2rem;
+							list-style-type: square;
+
+						}
+
+							.bio__item {}
+
+								.bio__link {
+
+									text-decoration: none;
+
+									&:hover,
+									&:focus {
+
+										text-decoration: underline;
+
+									}
+
+								}
+
 		/* Resources */
 
 		.resources {}
@@ -627,4 +660,15 @@
 
 						.resources__item {}
 
-							.resources__link {}
+							.resources__link {
+
+								text-decoration: none;
+
+								&:hover,
+								&:focus {
+
+									text-decoration: underline;
+
+								}
+
+							}

@@ -1085,6 +1085,26 @@ iframe {
   /* 22 */
 }
 
+.bio__links-title {
+  margin: 3.2rem 0 1.2rem 0;
+  font-size: 1.9rem;
+  line-height: 1.368421053;
+  /* 26 */
+}
+
+.bio__list {
+  padding: 0 0 0 2.2rem;
+  list-style-type: square;
+}
+
+.bio__link {
+  text-decoration: none;
+}
+
+.bio__link:hover, .bio__link:focus {
+  text-decoration: underline;
+}
+
 /* Resources */
 .resources__category {
   margin: 0 0 3.6rem 0;
@@ -1104,6 +1124,14 @@ iframe {
 .resources__list {
   padding: 0 0 0 2.2rem;
   list-style-type: square;
+}
+
+.resources__link {
+  text-decoration: none;
+}
+
+.resources__link:hover, .resources__link:focus {
+  text-decoration: underline;
 }
 
 /*------------------------------
