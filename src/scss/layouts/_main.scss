@@ -36,6 +36,33 @@
 
 			.section__inner-wrap {}
 
+		.meta {
+
+			margin: 0 0 3.6rem 0;
+			padding: 0;
+			border-bottom: 1px solid $color-gray-20;
+
+		}
+
+			.meta__inner-wrap {}
+
+				.meta__title {
+
+					display: block;
+					margin: 0;
+					padding: 2.0rem 2.0rem 2.0rem 0;
+					font-size: 1.9rem;
+					line-height: 1.368421053; /* 26 */
+					font-weight: normal;
+					color: $color-primary-blue;
+					
+				}
+
+				.speakers__sort {
+
+					display: none;
+
+				}
 
 		/* Hero */
 
@@ -238,13 +265,32 @@
 
 		}
 
-			.location__inner-wrap {}
+			.location__inner-wrap {
+
+				@media screen and (min-width: 560px) {
+
+					// display: flex;
+					// flex-direction: row;
+					// flex-wrap: wrap;
+					// justify-content: space-between;
+					// align-items: flex-start;
+					// align-content: flex-start;
+
+				}
+
+			}
 
 				.location__header {
 
 					margin: 0 0 1.2rem 0;
 					font-size: 1.9rem;
 					line-height: 1.368421053; /* 26 */
+
+					@media screen and (min-width: 560px) {
+
+						// width: 100%;
+
+					}
 
 				}
 
@@ -318,3 +364,134 @@
 									}
 
 								}
+
+				.location__thanks {
+
+					margin: 3.6rem 0 0 0;
+					padding: 2.6rem;
+					background: $color-gray-10;
+					color: $color-base-white;
+					background: $color-primary-blue;
+
+				}
+
+					.location__thanks-header {
+
+						margin: 0;
+						font-size: 1.5rem;
+						line-height: 1.466666667; /* 22 */
+						text-align: center;
+						text-transform: uppercase;
+						color: $color-base-white;
+
+					}
+
+					.location__thanks-detail {
+
+						margin: 1.2rem 0 0 0;
+						text-align: center;
+
+					}
+
+						.sponsor__logo {
+
+							width: 120px;
+							margin: 0 auto;
+
+						}
+
+							.sponsor__link {
+
+								display: block;
+								width: 120px;
+								height: 40px;
+								background: url(/assets/img/katten-logo-white.svg) center center no-repeat;
+								background-size: 120px 89px;
+								@include hide-text;
+
+							}
+
+						
+						.sponsor__tagline {
+
+							font-style: italic;
+
+						}
+
+		/* Speakers */
+
+		.speakers {}
+
+			.speakers__inner-wrap {}
+
+				.speakers__sort {}
+
+				.speakers__list {
+
+					margin: 0;
+					padding: 0;
+					list-style: none;
+
+					@media screen and (min-width: 440px) {
+
+						display: flex;
+						flex-direction: row;
+						flex-wrap: wrap;
+						justify-content: space-between;
+						align-items: flex-start;
+						align-content: flex-start;
+						
+					}
+
+				}
+
+					.speakers__item {
+
+						margin: 0 0 40px 0;
+
+						@media screen and (min-width: 440px) {
+
+							width: calc(50% - 10px);
+
+						}
+
+						@media screen and (min-width: 700px) {
+
+							width: calc(33.333333333% - 14px);
+
+						}
+
+						&:last-of-type {
+
+							margin: 0;
+
+						}
+
+					}
+
+						.speakers__link {
+
+							text-decoration: none;
+
+						}
+
+							.speakers__thumbnail {
+
+								display: block;
+								margin: 0 0 10px 0;
+
+							}
+
+							.speakers__name {
+
+								margin: 0;
+								font-size: 1.5rem;
+								line-height: 1.466666667; /* 22 */
+
+							}
+
+							.speakers__detail {
+
+								color: $color-primary-gray;
+
+							}

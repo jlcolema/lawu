@@ -627,6 +627,27 @@ iframe {
   border-top: 1px solid #cbcbcb;
 }
 
+.meta {
+  margin: 0 0 3.6rem 0;
+  padding: 0;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.meta__title {
+  display: block;
+  margin: 0;
+  padding: 2.0rem 2.0rem 2.0rem 0;
+  font-size: 1.9rem;
+  line-height: 1.368421053;
+  /* 26 */
+  font-weight: normal;
+  color: #22529d;
+}
+
+.speakers__sort {
+  display: none;
+}
+
 /* Hero */
 .hero__meta {
   margin: 0 0 3.6rem 0;
@@ -869,6 +890,118 @@ iframe {
 
 .location__directions-link:hover {
   background: #f3f3f3;
+}
+
+.location__thanks {
+  margin: 3.6rem 0 0 0;
+  padding: 2.6rem;
+  background: #e6e6e6;
+  color: white;
+  background: #22529d;
+}
+
+.location__thanks-header {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.466666667;
+  /* 22 */
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.location__thanks-detail {
+  margin: 1.2rem 0 0 0;
+  text-align: center;
+}
+
+.sponsor__logo {
+  width: 120px;
+  margin: 0 auto;
+}
+
+.sponsor__link {
+  display: block;
+  width: 120px;
+  height: 40px;
+  background: url(/assets/img/katten-logo-white.svg) center center no-repeat;
+  background-size: 120px 89px;
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.sponsor__tagline {
+  font-style: italic;
+}
+
+/* Speakers */
+.speakers__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (min-width: 440px) {
+  .speakers__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+  }
+}
+
+.speakers__item {
+  margin: 0 0 40px 0;
+}
+
+@media screen and (min-width: 440px) {
+  .speakers__item {
+    width: calc(50% - 10px);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .speakers__item {
+    width: calc(33.333333333% - 14px);
+  }
+}
+
+.speakers__item:last-of-type {
+  margin: 0;
+}
+
+.speakers__link {
+  text-decoration: none;
+}
+
+.speakers__thumbnail {
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.speakers__name {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.466666667;
+  /* 22 */
+}
+
+.speakers__detail {
+  color: #777777;
 }
 
 /*------------------------------
