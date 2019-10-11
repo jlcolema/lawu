@@ -575,6 +575,8 @@
 
 						.highlights__detail {}
 
+		/* Bio */
+
 		.bio {}
 
 			.bio__inner-wrap {}
@@ -588,3 +590,41 @@
 				}
 
 				.bio__detail {}
+
+		/* Resources */
+
+		.resources {}
+
+			.resources__inner-wrap {}
+
+				.resources__category {
+
+					margin: 0 0 3.6rem 0;
+
+					&:last-of-type {
+
+						margin: 0;
+
+					}
+
+				}
+
+					.resources__title {
+
+						margin: 0 0 1.2rem 0;
+						font-size: 1.9rem;
+						line-height: 1.368421053; /* 26 */
+
+					}
+
+					.resources__list {
+
+						// margin: 0;
+						padding: 0 0 0 2.2rem;
+						list-style-type: square;
+
+					}
+
+						.resources__item {}
+
+							.resources__link {}
