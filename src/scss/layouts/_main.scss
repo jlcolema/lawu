@@ -111,7 +111,7 @@
 					align-items: flex-start;
 					align-content: flex-start;
 					margin: 28px 0 0 0;
-					background: pink;
+					// background: pink;
 
 				}
 
@@ -144,6 +144,49 @@
 							}
 			
 						}
+
+				.hero__brochure {
+
+					position: relative;
+					display: inline-block;
+					margin: 3.2rem 0 0 0;
+					padding: 1.8rem 8.8rem 1.8rem 1.8rem;
+					text-align: center;
+					text-transform: uppercase;
+					background: $color-gray-10;
+					
+					&:after {
+
+						content: "";
+						position: absolute;
+						right: 20px;
+						bottom: 0;
+						width: 49px;
+						height: 59px;
+						background: url(/assets/img/page.svg);
+						background-size: 49px 59px;
+						z-index: 1;
+
+					}
+
+				}
+
+					.hero__brochure-link {
+
+						display: block;
+						padding: 0.6rem 1.0rem;
+						color: $color-base-white;
+						background: $color-primary-blue;
+						text-decoration: none;
+						transition: background 0.35s ease-in-out;
+
+						&:hover {
+		
+							background: lighten($color-primary-blue, 5%);
+		
+						}
+
+					}
 
 		/* Video */
 
@@ -275,52 +318,3 @@
 									}
 
 								}
-
-						.location__brochure {
-
-							position: relative;
-							display: inline-block;
-							margin: 4.2rem 0 0 0;
-							padding: 1.8rem 8.8rem 1.8rem 1.8rem;
-							text-align: center;
-							text-transform: uppercase;
-							background: $color-gray-10;
-							
-							@media screen and (min-width: 600px) {
-
-								margin: 2.5rem 0 0 0;
-
-							}
-
-							&:after {
-
-								content: "";
-								position: absolute;
-								right: 20px;
-								bottom: 0;
-								width: 49px;
-								height: 59px;
-								background: url(/assets/img/page.svg);
-								background-size: 49px 59px;
-								z-index: 1;
-
-							}
-
-						}
-
-							.location__brochure-link {
-
-								display: block;
-								padding: 0.6rem 1.0rem;
-								color: $color-base-white;
-								background: $color-primary-blue;
-								text-decoration: none;
-								transition: background 0.35s ease-in-out;
-
-								&:hover {
-				
-									background: lighten($color-primary-blue, 5%);
-				
-								}
-
-							}
