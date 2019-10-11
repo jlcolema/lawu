@@ -543,6 +543,19 @@ iframe {
 
 /* Nav */
 .nav {
+  margin: 20px 0 0 0;
+}
+
+@media screen and (min-width: 720px) {
+  .nav {
+    position: absolute;
+    right: 0;
+    bottom: 28px;
+    z-index: 1;
+  }
+}
+
+.nav__toggle {
   display: none;
 }
 
@@ -569,21 +582,50 @@ iframe {
   list-style: none;
 }
 
+.nav__item {
+  padding: 0 10px;
+  border-right: 1px solid #cbcbcb;
+}
+
+.nav__item:first-of-type {
+  padding: 0 10px 0 0;
+}
+
+@media screen and (min-width: 720px) {
+  .nav__item:first-of-type {
+    padding: 0 10px;
+  }
+}
+
+.nav__item:last-of-type {
+  margin: 0;
+  border: none;
+}
+
+.nav__link {
+  color: #777777;
+  text-decoration: none;
+}
+
+.nav__link:hover, .nav__link:focus {
+  color: #22529d;
+}
+
 /* Call to Action */
 .call-to-action {
-  margin: 16px 0 0 0;
+  margin: 24px 0 0 0;
   font-size: 1.9rem;
   line-height: 1.368421053;
   /* 26 */
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 540px) {
   .call-to-action {
     position: absolute;
     right: 0;
-    top: 50%;
-    margin: -18px 0 0 0;
+    top: 0;
+    margin: 0;
     z-index: 1;
   }
 }
@@ -759,7 +801,7 @@ iframe {
 .hero__brochure {
   position: relative;
   display: inline-block;
-  margin: 3.2rem 0 0 0;
+  margin: 2.6rem 0 0 0;
   padding: 1.8rem 8.8rem 1.8rem 1.8rem;
   text-align: center;
   text-transform: uppercase;
