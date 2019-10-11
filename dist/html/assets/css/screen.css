@@ -993,6 +993,7 @@ iframe {
 
 .speakers__thumbnail {
   display: block;
+  height: auto !important;
   margin: 0 0 10px 0;
 }
 
