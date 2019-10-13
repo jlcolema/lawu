@@ -1028,7 +1028,7 @@ iframe {
 
 @media screen and (min-width: 700px) {
   .speakers__item {
-    width: calc(33.333333333% - 14px);
+    width: calc(20% - 16px);
   }
 }
 
