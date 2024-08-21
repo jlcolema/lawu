@@ -12,5 +12,7 @@ node_modules/
 
 # Ignore editor files.
 
-# *.sublime-project
-# *.sublime-workspace
+*.sublime-project
+*.sublime-workspace
+*.nova
+*.code-workspace
